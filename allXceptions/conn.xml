@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="BankingSir">
+	<Module name="Module-1">
+		<IOException>
+			
+				<Action name="email" subject="Something Went Wrong" from="x@y.com" to="a@b.com"/>
+				<Action name="log" logFilePath="C:/Users/RDRIL/eclipse-workspace/BankingSir/src/allXceptions/log.txt"/>
+				<Action name="abort"/>
+			
+		</IOException>
+		<SQLException>
+			
+				<Action name="email" subject="Something Went Wrong" from="x@y.com" to="a@b.com"/>
+				<Action name="log" logFilePath="C:/Users/RDRIL/eclipse-workspace/BankingSir/src/allXceptions/log.txt"/>
+				<Action name="abort"/>
+			
+		</SQLException>
+		<FileNotFoundException>
+		
+				<Action name="abort"/>
+			
+		</FileNotFoundException>
+	</Module>
+</Project>
